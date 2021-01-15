@@ -21,3 +21,21 @@ body {
   -moz-text-stroke-width: 0.8px;
   -moz-text-stroke-color: rgb(0, 0, 0);
 }
+.radio.p {
+  padding: 10px;
+}
+.radio {
+  padding: 4px;
+}
+.select, .form-group {
+  padding: 10px 0 10px 0;
+}
+.button {
+  text-align: center;
+}
+.btn {
+  background-color: black;
+  color: white;
+  width: 100px;
+  margin: 20px auto 20px auto;
+}
