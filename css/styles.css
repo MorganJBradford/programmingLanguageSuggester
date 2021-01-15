@@ -45,4 +45,14 @@ span.strong {
 }
 #c-sharp, #python, #swift {
   display: none;
+  border: 2px solid black;
+  padding: 20px 20px 40px 20px;
+}
+h4 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.form {
+  border: 2px solid black;
+  padding: 20px;
 }
