@@ -21,14 +21,14 @@ body {
   -moz-text-stroke-width: 0.8px;
   -moz-text-stroke-color: rgb(0, 0, 0);
 }
-.radio.p {
-  padding: 10px;
+.both-radios {
+  margin-bottom: 20px;
 }
 .radio {
   padding: 4px;
 }
 .select, .form-group {
-  padding: 10px 0 10px 0;
+  padding: 20px 0 20px 0;
 }
 .button {
   text-align: center;
