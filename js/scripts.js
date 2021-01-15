@@ -1,3 +1,10 @@
-$(document).ready(function(event) {
-event.preventDefault
+$(document).ready(function() {
+  $("#quiz").submit(function(event) {
+  event.preventDefault();
+  const trustChoice = $("input:radio[name=trust]:checked").val();
+  const seasonChoice = $("#season").val();
+  const coinAmount = parseInt($("#coins").val());
+  
+
+  });
 });
