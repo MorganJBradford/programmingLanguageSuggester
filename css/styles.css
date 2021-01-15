@@ -1,3 +1,9 @@
+body {
+  background: url(../img/pexels-jessica-lewis-583846.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 #c-sharp, #python, #swift {
   display: none;
 }
