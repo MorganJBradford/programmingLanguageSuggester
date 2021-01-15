@@ -1,15 +1,15 @@
-# _{Application Name}_
+# _Programming Language Suggester_
 
-#### _{Brief description of application}_
+#### _A website designed to suggest a programming language for visitors to learn via silly questions_
 
 #### By _**{List of contributors}**_
 
 ## Technologies Used
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+* _HTML_
+* _CSS_
+* _JavaScript_
+* _jQuery_
 
 ## Description
 
@@ -32,8 +32,8 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 
 ## License
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+[MIT](LICENSE.txt)
 
 ## Contact Information
 
-_{Add your contact information here.}_
+_Morgan Bradford_: morganjbradford95@gmail.com
