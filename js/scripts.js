@@ -10,6 +10,10 @@ $(document).ready(function() {
 
   if (trustChoice === "tiger" && seasonChoice === "Autumn" && genre === "hip-hop" || coinAmount > 100 && distance <= 5) {
     $("#c-sharp").show();
+  } else if (trustChoice === "carole" && seasonChoice === "Summer" || coinAmount <= 10 && genre === "classical") {
+    $("#python").show();
+  } else {
+    $("#swift").show();
   }
 
   });
