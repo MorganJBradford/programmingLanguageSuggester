@@ -3,12 +3,10 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  font-weight: 600;
 }
 .container {
   background-color: rgba(182, 173, 173, 0.9);
-}
-#c-sharp, #python, #swift {
-  display: none;
 }
 .jumbotron {
   padding: 2rem 1rem;
@@ -38,4 +36,13 @@ body {
   color: white;
   width: 100px;
   margin: 20px auto 20px auto;
+}
+.em {
+  font-style: italic;
+}
+span.strong {
+  font-weight: 900;
+}
+#c-sharp, #python, #swift {
+  display: none;
 }
