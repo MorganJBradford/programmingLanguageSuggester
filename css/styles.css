@@ -57,6 +57,8 @@ body {
   display: none;
   border: 2px solid black;
   padding: 20px 20px 40px 20px;
+  border-radius: 10px;
+  border-top: transparent;
 }
 h4 {
   text-align: center;
