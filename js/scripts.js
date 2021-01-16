@@ -15,9 +15,5 @@ $(document).ready(function() {
     } else {
       $("#swift").show();
     }
-    if ("button").click(event) {
-      event.submit()
-      $("html, body").animate({scrollBottom: $("button").offset().top}, 2000);
-    };
   });
 });
