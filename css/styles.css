@@ -53,7 +53,7 @@ body {
   width: 100px;
   margin: 20px auto 20px auto;
 }
-#c-sharp, #python, #swift {
+#c-sharp, #python, #swift, #submittedName {
   display: none;
   border: 2px solid black;
   padding: 20px 20px 40px 20px;
