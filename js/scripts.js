@@ -2,8 +2,9 @@ $(document).ready(function() {
   $("#userInfo").submit(function(event) {
     event.preventDefault();
     const name = $("input#userName").val();
-    $(".userName").text(name);
-  })
+    const concatName = ", ".concat(name);
+    $(".userName").text(concatName);
+  });
   $("#quiz").submit(function(event) {
     event.preventDefault();
     const trustChoice = $("input:radio[name=trust]:checked").val();
