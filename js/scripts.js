@@ -2,7 +2,6 @@ $(document).ready(function() {
   $("#quiz").submit(function(event) {
     event.preventDefault();
     const trustChoice = $("input:radio[name=trust]:checked").val();
-    console.log(trustChoice);
     const seasonChoice = $("#season").val();
     const coinAmount = parseInt($("#coins").val());
     const distance = Math.floor(parseInt($("#mcdonalds").val()));
