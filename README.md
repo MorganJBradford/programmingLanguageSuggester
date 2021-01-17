@@ -59,7 +59,9 @@ Answer the questions as requested then click _calculate_. **Scroll down to view 
 
 ## Known Bugs
 
-* _Website does not scroll down to result upon clicking "calculate!"_
+* _Website does not scroll down to result upon clicking "Calculate!"_
+*_"Submit" needs two clicks to show .submittedName_
+*_.submittedName has visual bug over text )horizontal white line)_
 * _No other known bugs_
 * **If you find any bugs, _please_ contact me via email (listed below)**
 

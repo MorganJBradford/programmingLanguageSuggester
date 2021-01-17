@@ -4,6 +4,9 @@ $(document).ready(function() {
     const name = $("input#userName").val();
     const concatName = ", ".concat(name);
     $(".userName").text(concatName);
+    $("#userInfo").submit(function() {
+      $("#submittedName").show();
+    });
   });
   $("#quiz").submit(function(event) {
     event.preventDefault();
