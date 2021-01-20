@@ -4,9 +4,11 @@ $(document).ready(function() {
     const name = $("input#userName").val();
     const concatName = ", ".concat(name);
     $(".userName").text(concatName);
+    $("#userInfo").hide();
   });
   $("#quiz").submit(function(event) {
     event.preventDefault();
+    $("#c-sharp, #python, #swift").hide();
     const trustChoice = $("input:radio[name=trust]:checked").val();
     const seasonChoice = $("#season").val();
     const coinAmount = parseInt($("#coins").val());
