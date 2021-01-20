@@ -9,9 +9,7 @@ $(document).ready(function() {
   $("#quiz").submit(function(event) {
     event.preventDefault();
     $("#c-sharp, #python, #swift").hide();
-    const trustChoice = parseInt($("input:radio[name=trust]:checked").val());
-    const seasonChoice = parseInt($("#season").val());
-    const trustAndSeasonChoice = trustChoice + seasonChoice;
+    const trustAndSeasonChoice = parseInt($("input:radio[name=trust]:checked").val()) + parseInt($("#season").val());
     const coinAmount = parseInt($("#coins").val());
     const distance = Math.floor(parseInt($("#mcdonalds").val()));
     const genre = $("#music").val();
