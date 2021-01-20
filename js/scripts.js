@@ -9,15 +9,16 @@ $(document).ready(function() {
   $("#quiz").submit(function(event) {
     event.preventDefault();
     $("#c-sharp, #python, #swift").hide();
-    const trustChoice = $("input:radio[name=trust]:checked").val();
-    const seasonChoice = $("#season").val();
+    const trustChoice = parseInt($("input:radio[name=trust]:checked").val());
+    const seasonChoice = parseInt($("#season").val());
+    const trustAndSeasonChoice = trustChoice + seasonChoice;
     const coinAmount = parseInt($("#coins").val());
     const distance = Math.floor(parseInt($("#mcdonalds").val()));
     const genre = $("#music").val();
 
-    if (trustChoice === "tiger" && seasonChoice === "Autumn" && genre === "hip-hop" || coinAmount > 100 && distance <= 5) {
+    if (trustAndSeasonChoice >= 4  & coinAmount < 50 || coinAmount > 50 && distance <= 5) {
       $("#c-sharp").show();
-    } else if (trustChoice === "carole" && seasonChoice === "Summer" || coinAmount <= 10 && genre === "classical" || coinAmount <= 10 && genre === "Classical") {
+    } else if (trustAndSeasonChoice <= 6 & distance > 5  || coinAmount <= 20 && genre === "classical" || coinAmount <= 10 && genre === "Classical") {
       $("#python").show();
     } else {
       $("#swift").show();
